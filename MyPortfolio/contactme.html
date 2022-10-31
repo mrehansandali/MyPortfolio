@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .lastbox {
+            display: flex;
+            flex-direction: column;
+            background-color: #25292B;
+            color: white;
+            text-align: center;
+        }
+
+        .lbh1 {
+            font-size: 3vw;
+            text-align: center;
+        }
+
+        .lbinner {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .lbfitem {
+            width: 40vw;
+            font-size: 1.5vw;
+        }
+
+        .lbfitem h1 {
+            color: orange;
+        }
+
+        .lbfitem p {
+            margin: 10% 0;
+        }
+
+        .lbfitem hr {
+            margin: 10% 0;
+        }
+
+        @media (max-width:400px) {
+            .lbinner {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .lbh1 {
+                font-size: 4.5vw;
+                text-align: center;
+                margin: 10% 0;
+            }
+
+            .lbfitem {
+                width: 100vw;
+            }
+
+            .lbfitem h1 {
+                font-size: 8vw;
+                text-align: center;
+            }
+
+            .lbfitem p {
+                font-size: 6vw;
+                margin: 10% 0;
+                text-align: center;
+            }
+
+            .lbfitem hr {
+                margin: 20% 10%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="lastbox">
+        <div class="lbh1">
+            <h1>CONTACT ME</h1>
+        </div>
+        <div class="lbinner">
+            <div class="lbfitem">
+                <h1>EMAIL</h1>
+                <p>mrehansanlai@gmail.com</p>
+                <hr>
+                <h1>ADDRESS</h1>
+                <p>Area 4-D, Block # 81, House # 2, Landhi # 6 KARACHI PAKISTAN</p>
+                <hr>
+                <h1>PHONE</h1>
+                <p>+92316-2007264</p>
+            </div>
+            <!-- <div class="lbsitem">
+            <input type="text" placeholder="FIRST NAME">
+            <input type="text" placeholder="LAST NAME">
+            <input type="text" placeholder="EMAIL ADDRESS">
+            <button>SUBMIT QUERY</button>
+        </div> -->
+        </div>
+    </div>
+</body>
+
+</html>

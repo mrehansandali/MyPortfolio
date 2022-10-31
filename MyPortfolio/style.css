@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.firstbox {
+    width: 100vw;
+    padding-bottom: 6%;
+    background: black;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.navitem{
+    display: flex;
+}
+.navitem li {
+    display: flex;
+    list-style-type: none;
+    padding: 2vw;
+    font-size: 1.5vw;
+    align-items: center;
+}
+.navitem li a{
+    text-decoration: none;
+    padding: 1.5vw;
+    color: white;
+}
+.navitem li a:hover {
+    background-color: #EFC100;
+    border-radius: 10px;
+    color: black;
+}
+.logo span {
+    color: orange;
+}
+.logo {
+    padding: 2vw;
+    font-size: 3vw;
+}
+.title {
+    font-size: 5vw;
+    text-align: center;
+    color: white;
+    margin-top: 3%;
+}
+.title span {
+    color: orange;
+}
+.fbfbutton {
+    display: flex;
+    justify-content: center;
+}
+.fbfbutton button {
+    margin: 2% 0;
+    font-size: 2vw;
+    padding: 1vw 2vw;
+    background-color: #EFC100;
+    font-weight: 600;
+}
+.fbsbutton {
+    display: flex;
+    justify-content: center;
+}
+.fbsbutton button {
+    font-size: 2vw;
+    padding: 1vw 10vw;
+    font-weight: 600;
+
+}
+.secondbox {
+    display: flex;
+    width: 100vw;
+    background-color: #25292B;
+    color: white;
+    padding-bottom: 5%;
+}
+.sbfitem {
+    width: 45vw;
+    margin-top: 5%;
+}
+.sbfitem h1 {
+    font-size: 4.5vw;
+    margin: 0 8%;
+}
+.sbfitem p {
+    font-size: 1.8vw;
+    margin: 4% 8% 0 8%;
+}
+.sbsitem img {
+    margin-top: 20%;
+    margin-left: 10%;
+    border-radius: 6%;
+    width: 45vw;
+}
+.thirdbox{
+    background-color: #EFC100;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0;
+}
+.thirdbox h1 {
+    font-size: 4vw;
+}
+.tbfitem{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-evenly;
+    margin: 5% 0;
+    width: 100vw;
+    padding: 5% 0;
+}
+.tbfitem img {
+    width: 20vw;
+}
+.thirdbox button {
+    width: 20vw;
+    padding: 1vw 2vw;
+    background-color: #25292B;
+    font-size: 2.5vw;
+    font-weight: 600;
+    color: white;
+    box-shadow: 0px 0px 25px 5px black;
+    border: transparent;
+}
+.fourbox {
+    padding: 5% 0;
+}
+.fourbox h1 {
+    font-size: 4vw;
+    text-align: center;
+}
+.fbfitem {
+    background-color: #25292B;
+    color: white;
+    display: flex;
+    margin: 7% 10%;
+    padding: 5%;
+}
+.text {
+    margin-right: 2%;
+}
+.text p {
+    font-size: 2vw;
+}
+.text h1 {
+    font-size: 3.5vw;
+    text-align: left;
+    margin-top: 5%;
+}
+.text img {
+    width: 3vw;
+}
+.fourbox .img img {
+    width: 20vw;
+}
+.lastbox {
+    display: flex;
+    flex-direction: column;
+    background-color: #25292B;
+    color: white;
+}
+.lbh1 {
+    font-size: 2.5vw;
+    text-align: center;
+    margin: 5% 0;
+}
+.lbinner {
+    display: flex;
+    justify-content: space-evenly;
+}
+.lbfitem {
+    width: 40vw;
+    font-size: 1.5vw;
+}
+.lbfitem h1 {
+    color: orange;
+}
+.lbfitem p {
+    margin: 10% 0 ;
+}
+.lbfitem hr {
+    margin: 10% 0 ;
+}
+.lbsitem{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lbsitem input {
+    width: 38vw;
+    border-radius: 10px;
+    height: 4vw;
+    margin: 10% 0 15% 0;
+    border: transparent;
+    font-weight: 900;
+    font-size: 1.5vw;
+}
+.lbsitem button {
+    width: 38vw;
+    height: 4vw;
+    border-radius: 20px;
+    border: transparent;
+    box-shadow: 0px 0px 25px 5px black;
+    background-color: #EFC100;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 4% 0;
+}
+.footer h1 {
+    font-size: 5vw;
+    text-align: center;
+}
+.footer h1 span {
+    color: orange;
+}
+.innerfooter {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 5% 0 5%;
+}
+.ifp {
+    font-size: 1.2vw;
+}
+.iflinks{
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+}
+.iflinks img {
+    width: 3vw;
+}
+@media (max-width : 400px) {
+    .firstbox {
+        height: 200vw;
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navitem{
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .navitem li{
+        font-size: 3.8vw;
+        text-align: center;
+        margin: 0 1%;
+        border-radius: 10%;
+    }
+    .logo {
+        font-size: 9vw;
+        display: flex;
+        justify-content: center;
+    }
+    .title {
+        font-size: 11vw;
+        margin-top: 50%;
+    }
+    .fbfbutton button {
+        margin-top: 40%;
+        font-size: 4vw;
+        padding: 2vw 4vw;
+    }
+    .fbsbutton button {
+        font-size: 4vw;
+        padding: 2vw 15vw;
+        /* margin-top: 5%; */
+    }
+    .secondbox {
+        display: flex;
+        flex-direction: column;
+    }
+    .sbfitem {
+        width: 100vw;
+        margin-top: 5%;
+    }
+    .sbfitem h1 {
+        font-size: 8vw;
+        text-align: center;
+        margin: 0 8%;
+    }
+    .sbfitem p {
+        font-size: 3.7vw;
+        text-align: center;
+        margin: 4% 8% 0 8%;
+    }
+    .sbsitem img {
+        margin-top: 10%;
+        width: 80vw;
+    }
+    .thirdbox h1 {
+        font-size: 6vw;
+        text-align: center;
+    }
+    .tbfitem{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tbfitem img {
+        width: 50vw;
+        margin: 10% 0;
+    }
+    .thirdbox button {
+        width: 40vw;
+        padding: 3vw 6vw;
+        font-size: 5vw;
+        box-shadow: 0px 0px 25px 0px black;
+        border-radius: 20px;
+    }
+    .fourbox h1 {
+        font-size: 6vw;
+        text-align: center;
+    }
+    .text h1 {
+        font-size: 7vw;
+        margin-top: 5%;
+    }
+    .text p {
+        font-size: 4vw;
+        text-align: center;
+    }
+    .fbfitem {
+        display: flex;
+        flex-direction: column;
+        margin: 7% 10%;
+        padding: 5%;
+    }
+    .text img {
+        width: 5vw;
+    }
+    .mdcss{
+        display: flex;
+        justify-content: center;
+    }
+    .fourbox .img {
+        display: flex;
+        margin-top: 13%;
+        justify-content: center;
+    }
+    .fourbox .img img {
+        width: 30vw;
+    }
+    .lbinner {
+        display: flex;
+        flex-direction: column;
+    }
+    .lbh1 {
+        font-size: 4.5vw;
+        text-align: center;
+        margin: 10% 0;
+    }
+    .lbfitem {
+        width: 100vw;
+    }
+    .lbfitem h1 {
+        font-size: 8vw;
+        text-align: center;
+    }
+    .lbfitem p {
+        font-size: 6vw;
+        margin: 10% 0 ;
+        text-align: center;
+    }
+    .lbfitem hr {
+        margin: 20% 10% ;
+    }
+    .lbsitem{
+        padding: 20% 0;
+        width: 100vw;
+        background-color: black;
+    }
+    .lbsitem input {
+        width: 70vw;
+        border-radius: 10px;
+        height: 10vw;
+        text-align: center;
+        margin: 0 0 15% 0;
+        border: transparent;
+        font-weight: 900;
+        font-size: 4vw;
+    }
+    .lbsitem button {
+        width: 55vw;
+        height: 10vw;
+        font-size: 3vw;
+    }
+    .footer{
+        background-color: black;
+        color: white;
+        padding: 4% 0;
+    }
+    .footer h1 {
+        font-size: 9vw;
+    }
+    .footer h1 span {
+        color: orange;
+    }
+    .innerfooter {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .ifp {
+        font-size: 2.4vw;
+        text-align: center;
+    }
+    .iflinks{
+        width: 100vw;
+        margin-bottom: 5%;
+        margin-top: 10%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .iflinks img {
+        width: 6vw;
+    }
+}
